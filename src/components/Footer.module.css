@@ -1,0 +1,5 @@
+@import '../index.css';
+
+.footer {
+    @apply shadow bg-gradient-to-r from-pink-500 to-purple-500 h-(--h-md) text-xs text-right pr-2 text-white relative
+}

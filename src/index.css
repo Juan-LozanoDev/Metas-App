@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+    --h-sm: 8px;
+    --h-md: 16px
+    --h-lg: 24px;
+    --h-xl: 48px;
+}

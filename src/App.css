@@ -1,0 +1,33 @@
+@import "./index.css";
+
+.body {
+  background: linear-gradient(145deg, #ffffff, #cbcfd9);
+}
+
+.tarjeta {
+  @apply rounded-xl m-4 text-gray-700 text-xs mx-4 overflow-hidden;
+  background: #ffffff;
+  box-shadow: 3px 3px 5px #b6b6b6, -3px -3px 5px #f7f7f7;
+}
+
+.button {
+  @apply text-sm font-bold py-1 px-4 rounded-full;
+}
+
+.button--black {
+  @apply text-white hover:bg-black;
+  background: #ffffff;
+  box-shadow: 5px 5px 3px #d5d5d5, -5px -5px 3px #f7f7f7;
+}
+
+.button--block {
+  @apply text-red-500;
+  background: #ffffff;
+  box-shadow: 5px 5px 3px #d5d5d5, -5px -5px 3px #f7f7f7;
+}
+
+.button--gray {
+  @apply hover:bg-gray-200 cursor-pointer;
+  background: #f1f1f6;
+  box-shadow: 3px 3px 5px #9e9e9e, -3px -3px 5px #f7f7f7;
+}
