@@ -1,4 +1,4 @@
-@import '../index.css';
+@import '../../index.css';
 
 .header {
     @apply h-(--h-xl) flex justify-between shadow bg-white text-gray-700 relative

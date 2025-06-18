@@ -1,7 +1,7 @@
 import styles from './Header.module.css'
-import Link from './Link'
-import { ReactComponent as LogoSVG} from '../img/logo.svg'
-import { ReactComponent as ProfileSVG} from '../img/perfil.svg'
+import Vinculo from './Vinculo'
+import { ReactComponent as LogoSVG} from '../../img/logo.svg'
+import { ReactComponent as ProfileSVG} from '../../img/perfil.svg'
 
 
 function Header() {
@@ -12,7 +12,7 @@ function Header() {
         <a href="/" className={styles.title}>Metas App</a>
       </div>
       <nav>
-        <Link href="/profile" Icon={ProfileSVG}/>
+        <Vinculo to="/profile" Icon={ProfileSVG}/>
       </nav>
     </header>
   );
