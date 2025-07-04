@@ -1,6 +1,6 @@
 import { createContext, useReducer } from "react"
 
-export const Context = createContext(null);
+export const ContextMetas = createContext(null);
 
 const memory = localStorage.getItem('goals');
 
@@ -64,9 +64,9 @@ function reducer(state, action) {
 function Memory({children}) {
   const [state, dispatch] = useReducer(reducer, initialArg);
   return (
-    <Context.Provider value={[state, dispatch]}>
+    <ContextMetas.Provider value={[state, dispatch]}>
         {children}
-    </Context.Provider>
+    </ContextMetas.Provider>
   )
 }
 

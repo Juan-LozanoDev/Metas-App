@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import styles from "./Details.module.css";
-import { Context } from "../../Services/Memory";
+import { ContextMetas } from "../../../memory/Memory";
 import { useNavigate, useParams } from "react-router";
 
 function Details() {
@@ -18,7 +18,7 @@ function Details() {
     finished: 0,
   });
 
-  const [state, dispatch] = useContext(Context);
+  const [state, dispatch] = useContext(ContextMetas);
 
   const { details, events, period, icon, goal, term, finished } = form;
 

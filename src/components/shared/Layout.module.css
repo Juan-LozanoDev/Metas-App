@@ -1,0 +1,10 @@
+@import '../../index.css';
+
+.main {
+  height: calc(100vh - 64px);
+  @apply flex w-full overflow-scroll;
+}
+
+.section {
+  @apply w-full h-full overflow-y-auto;
+}
