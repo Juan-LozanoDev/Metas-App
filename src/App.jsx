@@ -11,7 +11,7 @@ import Authenticate from "./components/shared/Authenticate";
 
 function App() {
   return (
-    <Routes>
+    <Routes basename ="/Metas-App">
       <Route path="/" element={<Navigate to="/list" />} />
       <Route element={<Layout />}>
         <Route path="access" element={<Access />} />
