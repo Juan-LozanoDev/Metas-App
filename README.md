@@ -1,12 +1,64 @@
-# React + Vite
+# Metas App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive application designed to help users set, track, and achieve their personal or professional goals.  
+The app allows you to define goals, break them into tasks, and monitor progress over time, providing motivation and organization in your daily routine.  
 
-Currently, two official plugins are available:
+⚠️ **Note:** This project was developed as a **practice exercise** during the **Academia X Full Stack Development course**.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎯 Goal Management
+- Create a new goal by defining:  
+  - Goal name  
+  - Goal frequency  
+  - Deadline date  
+  - Target completion count (how many times it should be achieved)  
+  - Progress count (how many times it has been completed)  
+- Edit an existing goal.  
+- Delete an existing goal.  
+
+### 🗂 Additional Features
+- Login section (basic entry flow, authentication to be added).  
+- Data persistence with **LocalStorage** (future update: database integration).  
+- Simple and intuitive interface for daily use.  
+
+---
+
+## 🛠️ Built With
+
+- **React** – Component-based UI  
+- **Tailwind CSS** – Utility-first styling  
+- **React Router** – Navigation with `Routes`, `Outlet`, `useNavigate`, `useParams`  
+- **React Hooks** – State and context management with `useState`, `useEffect`, `useReducer`, `useContext`  
+- **LocalStorage** – Temporary data persistence  
+
+---
+
+## 📂 Project Setup
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/Juan-LozanoDev/Metas-App.git
+   ```
+
+2. Navigate to the project folder:
+    ```bash
+     cd Metas-App
+    ```
+3. Install dependencies:
+
+   ```bash
+     npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+     npm run dev
+   ```
+
+## 📚 Learning Purpose
+
+This project was created as a practical exercise to strengthen skills in React, Tailwind, routing, and state management during the Academia X Full Stack Development course.
