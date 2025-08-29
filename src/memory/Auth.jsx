@@ -2,7 +2,7 @@ import { createContext, useReducer } from "react";
 
 const initialState = {
     token: '',
-    authenticate: false,
+    authenticate: true,
 }
 
 function reducer (state, action) {
