@@ -1,4 +1,3 @@
-
 function Modal({children}) {
 
   return (

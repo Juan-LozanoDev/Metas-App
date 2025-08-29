@@ -3,14 +3,17 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router";
 import "./index.css";
 import App from "./App.jsx";
-import Memory from "./Services/Memory.jsx";
+import Memory from "./memory/Memory.jsx";
+import AuthMemory from "./memory/Auth.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Memory>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </Memory>
+    <AuthMemory>
+      <Memory>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </Memory>
+    </AuthMemory>
   </StrictMode>
 );

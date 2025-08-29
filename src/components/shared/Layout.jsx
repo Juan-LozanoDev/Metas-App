@@ -1,15 +1,19 @@
 import Header from "./Header";
-import Container from "./Container";
 import Footer from "./Footer";
+import Aside from "./Aside";
 import { Outlet } from "react-router";
+import styles from './Layout.module.css'
 
-function Layout() {
+function Layout( { privado }) {
   return (
     <>
         <Header />
-        <Container>
-          <Outlet></Outlet>
-        </Container>
+        <main className={styles.main}>
+          {privado  && <Aside />}
+          <section className={styles.section}>
+            <Outlet></Outlet>
+          </section>
+        </main>
         <Footer />
     </>
   )
