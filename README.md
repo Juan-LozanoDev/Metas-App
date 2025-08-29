@@ -44,20 +44,20 @@ The app allows you to define goals, break them into tasks, and monitor progress 
    ```
 
 2. Navigate to the project folder:
-  ```bash
-   cd Metas-App
-  ```
+    ```bash
+     cd Metas-App
+    ```
 3. Install dependencies:
 
- ```bash
-   npm install
-  ```
+   ```bash
+     npm install
+   ```
 
 4. Run the development server:
 
- ```bash
-   npm run dev
-  ```
+   ```bash
+     npm run dev
+   ```
 
 ## 📚 Learning Purpose
 
