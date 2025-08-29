@@ -41,19 +41,23 @@ The app allows you to define goals, break them into tasks, and monitor progress 
 1. Clone this repository:  
    ```bash
    git clone https://github.com/Juan-LozanoDev/Metas-App.git
+   ```
 
 2. Navigate to the project folder:
-
-cd goal-tracker-app
-
-
+  ```bash
+   cd Metas-App
+  ```
 3. Install dependencies:
 
-npm install
+ ```bash
+   npm install
+  ```
 
 4. Run the development server:
 
-npm run dev
+ ```bash
+   npm run dev
+  ```
 
 ## 📚 Learning Purpose
 
