@@ -10,7 +10,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <AuthMemory>
       <Memory>
-        <BrowserRouter basename="/Metas-App">
+        <BrowserRouter basename="/Metas-App/">
           <App />
         </BrowserRouter>
       </Memory>
